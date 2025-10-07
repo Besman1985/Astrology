@@ -1,1 +1,130 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+.bern__your__sun {
+  background-image: url(../img/BernYourSun/shutterstock_11657207_1\ 1.gif), url(../img/BernYourSun/BgSun.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.bern__your__sun .conteiner {
+  max-width: 1165px;
+  min-height: 1024px;
+  margin: 0 auto;
+  padding-top: 19px;
+}
+.bern__your__sun .conteiner .bern__your__sun__title {
+  max-width: 800px;
+  font-family: Roboto;
+  font-size: 96px;
+  font-weight: 100;
+  text-align: left;
+  color: #FFFFFF;
+  margin-top: 136px;
+  line-height: 1.3;
+}
+.bern__your__sun .conteiner p {
+  max-width: 500px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.bern__your__sun .conteiner .logo {
+  max-width: 285px;
+  height: auto;
+}
+.bern__your__sun .conteiner .bern__your__sun__btn {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #f0f0f0;
+  background: linear-gradient(358.4361835464deg, #d15a1a 0%, #eab425 47%, #ecd85a 100%);
+  width: 269px;
+  height: 61px;
+  border-radius: 30px;
+  margin-top: 184px;
+  cursor: pointer;
+}
+
+.what__is__sun {
+  background-color: #111111;
+  background-image: url(../img/WhatIsSun/sun\ 1.png);
+  background-repeat: no-repeat;
+  background-position: 0 -160px;
+  margin: 0 auto;
+  max-width: 1440px;
+  max-height: 700px;
+}
+.what__is__sun .conteiner {
+  max-width: 1165px;
+  min-height: 700px;
+  margin: 0 auto;
+  padding-top: 190px;
+}
+.what__is__sun .conteiner .what__is__sun__h1 {
+  font-family: Roboto;
+  font-size: 72px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #f3d7b3;
+}
+.what__is__sun .conteiner p {
+  max-width: 586px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 100;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+.what__is__sun .conteiner .what__is__sun__p {
+  margin-top: 30px;
+}
+
+.feelings {
+  background-color: #111111;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.feelings .conteiner {
+  max-width: 1165px;
+  margin: 0 auto;
+}
+.feelings .conteiner h1 {
+  font-family: Roboto;
+  font-size: 72px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #f3d7b3;
+}
+.feelings .conteiner .feelings__content__wrapper {
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.feelings .conteiner .feelings__content__wrapper img {
+  max-width: 600px;
+}
+.feelings .conteiner .feelings__content__wrapper .feelings__content {
+  max-width: 560px;
+}
+.feelings .conteiner .feelings__content__wrapper .feelings__content h2 {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+.feelings .conteiner .feelings__content__wrapper .feelings__content p {
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 100;
+  color: #ffffff;
+  margin-top: 7px;
+}/*# sourceMappingURL=style.css.map */
