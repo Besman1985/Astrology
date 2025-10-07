@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  background-color: #0A0A0A;
+}
+
 .bern__your__sun {
   background-image: url(../img/BernYourSun/shutterstock_11657207_1\ 1.gif), url(../img/BernYourSun/BgSun.png);
   background-repeat: no-repeat;
@@ -43,10 +47,10 @@
   text-align: center;
   color: #f0f0f0;
   background: linear-gradient(358.4361835464deg, #d15a1a 0%, #eab425 47%, #ecd85a 100%);
-  width: 269px;
-  height: 61px;
-  border-radius: 30px;
-  margin-top: 184px;
+  width: 270px;
+  height: 60px;
+  border-radius: 50px;
+  margin-top: 185px;
   cursor: pointer;
 }
 
@@ -89,10 +93,12 @@
   background-color: #111111;
   margin: 0 auto;
   max-width: 1440px;
+  padding-top: 244px;
 }
 .feelings .conteiner {
   max-width: 1165px;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 .feelings .conteiner h1 {
   font-family: Roboto;
@@ -108,7 +114,10 @@
   justify-content: space-between;
 }
 .feelings .conteiner .feelings__content__wrapper img {
-  max-width: 600px;
+  max-width: 550px;
+}
+.feelings .conteiner .feelings__content__wrapper .first__img {
+  transform: rotate(-5deg);
 }
 .feelings .conteiner .feelings__content__wrapper .feelings__content {
   max-width: 560px;
@@ -127,4 +136,100 @@
   font-weight: 100;
   color: #ffffff;
   margin-top: 7px;
+}
+
+.emotion__burnout {
+  margin: 0 auto;
+  max-width: 1440px;
+  min-height: 600px;
+  background-image: url("../img/EmotionBurnout/BgImg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  align-content: center;
+}
+.emotion__burnout .conteiner {
+  max-width: 1165px;
+  min-height: 240px;
+  margin: 0 auto;
+  align-content: space-between;
+}
+.emotion__burnout .conteiner p {
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+.emotion__burnout .conteiner :last-child {
+  margin-top: 60px;
+}
+
+.what__to__do {
+  background-color: #111111;
+  background-image: url("../img/WhatToDo/bg.png");
+  background-repeat: no-repeat;
+  background-position: 855px 105px;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-top: 135px;
+}
+.what__to__do .conteiner {
+  max-width: 1165px;
+  min-height: 1160px;
+  margin: 0 auto;
+}
+.what__to__do .conteiner h1 {
+  font-family: Roboto;
+  font-size: 72px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #f3d7b3;
+}
+.what__to__do .conteiner .first__p {
+  max-width: 760px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #f3d7b3;
+  margin-top: 50px;
+}
+.what__to__do .conteiner .next__p {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  max-width: 860px;
+  margin-top: 20px;
+}
+.what__to__do .conteiner .third__p {
+  max-width: 950px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 30px;
+}
+.what__to__do .conteiner .what__to__do__btn {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #f0f0f0;
+  text-transform: uppercase;
+  width: 400px;
+  height: 80px;
+  background: linear-gradient(358.4361835464deg, #dac1a0 0%, #c3a885 47%, #c1a683 100%);
+  border-radius: 50px;
+  background: linear-gradient(358.4361835464deg, #dac1a0 0%, #c3a885 47%, #c1a683 100%);
+  margin-top: 120px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
