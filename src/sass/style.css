@@ -10,13 +10,13 @@ body {
   margin: 0 auto;
   max-width: 1440px;
 }
-.bern__your__sun .conteiner {
+.bern__your__sun .container {
   max-width: 1165px;
   min-height: 1024px;
   margin: 0 auto;
   padding-top: 19px;
 }
-.bern__your__sun .conteiner .bern__your__sun__title {
+.bern__your__sun .container .bern__your__sun__title {
   max-width: 800px;
   font-family: Roboto;
   font-size: 96px;
@@ -26,7 +26,7 @@ body {
   margin-top: 136px;
   line-height: 1.3;
 }
-.bern__your__sun .conteiner p {
+.bern__your__sun .container p {
   max-width: 500px;
   font-family: Roboto;
   font-size: 16px;
@@ -35,11 +35,11 @@ body {
   text-align: left;
   color: #FFFFFF;
 }
-.bern__your__sun .conteiner .logo {
+.bern__your__sun .container .logo {
   max-width: 285px;
   height: auto;
 }
-.bern__your__sun .conteiner .bern__your__sun__btn {
+.bern__your__sun .container .bern__your__sun__btn {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 700;
@@ -63,20 +63,20 @@ body {
   max-width: 1440px;
   max-height: 700px;
 }
-.what__is__sun .conteiner {
+.what__is__sun .container {
   max-width: 1165px;
   min-height: 700px;
   margin: 0 auto;
   padding-top: 190px;
 }
-.what__is__sun .conteiner .what__is__sun__h1 {
+.what__is__sun .container .what__is__sun__h1 {
   font-family: Roboto;
   font-size: 72px;
   letter-spacing: 0px;
   text-align: left;
   color: #f3d7b3;
 }
-.what__is__sun .conteiner p {
+.what__is__sun .container p {
   max-width: 586px;
   font-family: Roboto;
   font-size: 36px;
@@ -85,7 +85,7 @@ body {
   text-align: left;
   color: #ffffff;
 }
-.what__is__sun .conteiner .what__is__sun__p {
+.what__is__sun .container .what__is__sun__p {
   margin-top: 30px;
 }
 
@@ -95,34 +95,34 @@ body {
   max-width: 1440px;
   padding-top: 244px;
 }
-.feelings .conteiner {
+.feelings .container {
   max-width: 1165px;
   margin: 0 auto;
   padding-bottom: 50px;
 }
-.feelings .conteiner h1 {
+.feelings .container h1 {
   font-family: Roboto;
   font-size: 72px;
   font-weight: 300;
   letter-spacing: 0px;
   color: #f3d7b3;
 }
-.feelings .conteiner .feelings__content__wrapper {
+.feelings .container .feelings__content__wrapper {
   margin-top: 130px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.feelings .conteiner .feelings__content__wrapper img {
+.feelings .container .feelings__content__wrapper img {
   max-width: 550px;
 }
-.feelings .conteiner .feelings__content__wrapper .first__img {
+.feelings .container .feelings__content__wrapper .first__img {
   transform: rotate(-5deg);
 }
-.feelings .conteiner .feelings__content__wrapper .feelings__content {
+.feelings .container .feelings__content__wrapper .feelings__content {
   max-width: 560px;
 }
-.feelings .conteiner .feelings__content__wrapper .feelings__content h2 {
+.feelings .container .feelings__content__wrapper .feelings__content h2 {
   font-family: Roboto;
   font-size: 36px;
   font-weight: 400;
@@ -130,7 +130,7 @@ body {
   text-align: left;
   color: #ffffff;
 }
-.feelings .conteiner .feelings__content__wrapper .feelings__content p {
+.feelings .container .feelings__content__wrapper .feelings__content p {
   font-family: Roboto;
   font-size: 35px;
   font-weight: 100;
@@ -147,13 +147,13 @@ body {
   background-repeat: no-repeat;
   align-content: center;
 }
-.emotion__burnout .conteiner {
+.emotion__burnout .container {
   max-width: 1165px;
   min-height: 240px;
   margin: 0 auto;
   align-content: space-between;
 }
-.emotion__burnout .conteiner p {
+.emotion__burnout .container p {
   font-family: Roboto;
   font-size: 50px;
   font-weight: 700;
@@ -161,7 +161,7 @@ body {
   text-align: left;
   color: #ffffff;
 }
-.emotion__burnout .conteiner :last-child {
+.emotion__burnout .container :last-child {
   margin-top: 60px;
 }
 
@@ -174,12 +174,11 @@ body {
   max-width: 1440px;
   padding-top: 135px;
 }
-.what__to__do .conteiner {
+.what__to__do .container {
   max-width: 1165px;
-  min-height: 1160px;
   margin: 0 auto;
 }
-.what__to__do .conteiner h1 {
+.what__to__do .container h1 {
   font-family: Roboto;
   font-size: 72px;
   font-weight: 300;
@@ -187,7 +186,7 @@ body {
   text-align: left;
   color: #f3d7b3;
 }
-.what__to__do .conteiner .first__p {
+.what__to__do .container .first__p {
   max-width: 760px;
   font-family: Roboto;
   font-size: 30px;
@@ -197,7 +196,7 @@ body {
   color: #f3d7b3;
   margin-top: 50px;
 }
-.what__to__do .conteiner .next__p {
+.what__to__do .container .next__p {
   font-family: Roboto;
   font-size: 30px;
   font-weight: 100;
@@ -207,7 +206,7 @@ body {
   max-width: 860px;
   margin-top: 20px;
 }
-.what__to__do .conteiner .third__p {
+.what__to__do .container .third__p {
   max-width: 950px;
   font-family: Roboto;
   font-size: 30px;
@@ -217,7 +216,7 @@ body {
   color: #ffffff;
   margin-top: 30px;
 }
-.what__to__do .conteiner .what__to__do__btn {
+.what__to__do .container .what__to__do__btn {
   font-family: Montserrat;
   font-size: 20px;
   font-weight: 700;
@@ -231,4 +230,150 @@ body {
   border-radius: 50px;
   background: linear-gradient(358.4361835464deg, #dac1a0 0%, #c3a885 47%, #c1a683 100%);
   margin-top: 120px;
+}
+
+.you__get__file {
+  background-color: #111111;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.you__get__file .container {
+  max-width: 1165px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.you__get__file .container h1 {
+  font-family: Roboto;
+  font-size: 72px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #f3d7b3;
+  margin-top: 209px;
+}
+.you__get__file .container .get__file__wrapper {
+  margin-top: 210px;
+  display: flex;
+  justify-content: space-between;
+}
+.you__get__file .container .get__file__wrapper .get__file__content .h2__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.you__get__file .container .get__file__wrapper .get__file__content .h2__wrapper .number {
+  width: 68px;
+  height: 68px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 15px #f3d7b3 inset;
+  align-content: center;
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 50%;
+}
+.you__get__file .container .get__file__wrapper .get__file__content .h2__wrapper h2 {
+  max-width: 373px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  line-height: 1.3;
+}
+.you__get__file .container .get__file__wrapper .get__file__content p {
+  margin-top: 50px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  line-height: 1.3;
+}
+.you__get__file .container .get__file__wrapper .get__file__content .get__file__content__p {
+  margin-top: 35px;
+}
+.you__get__file .container .get__file__wrapper img {
+  max-width: 695px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.premium {
+  background-color: #111111;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.premium .container {
+  max-width: 1165px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.premium .container h1 {
+  font-family: Roboto;
+  font-size: 72px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #f3d7b3;
+  margin-top: 209px;
+}
+.premium .container .premium__content {
+  max-width: 590px;
+  margin-top: 140px;
+}
+.premium .container .premium__content .h2__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.premium .container .premium__content .h2__wrapper .number {
+  width: 68px;
+  height: 68px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 15px #f3d7b3 inset;
+  align-content: center;
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 50%;
+}
+.premium .container .premium__content .h2__wrapper h2 {
+  max-width: 493px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  line-height: 1.3;
+}
+.premium .container .premium__img__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.premium .container .premium__img__wrapper p {
+  max-width: 460px;
+  margin-top: 50px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  line-height: 1.3;
+}
+.premium .container .premium__img__wrapper img {
+  max-width: 664px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
