@@ -261,7 +261,7 @@ body {
 }
 @container (max-width:700px) {
   .emotion__burnout {
-    background-position: right;
+    background-position: -921px 0;
   }
 }
 .emotion__burnout .container {
@@ -303,6 +303,13 @@ body {
   max-width: 1440px;
   padding-top: 135px;
   padding: 0 40px 0 40px;
+}
+@container (max-width:700px) {
+  .what__to__do {
+    background-size: 67%;
+    background-position: 175px -7px;
+    padding-top: 50px;
+  }
 }
 .what__to__do .container {
   max-width: 1165px;

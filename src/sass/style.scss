@@ -278,7 +278,7 @@ body {
     padding: 0 40px 0 40px;
 
     @container (max-width:700px) {
-        background-position: right;
+        background-position: -921px 0;
     }
 
 
@@ -327,6 +327,12 @@ body {
     max-width: 1440px;
     padding-top: 135px;
     padding: 0 40px 0 40px;
+
+    @container (max-width:700px) {
+        background-size: 67%;
+        background-position: 175px -7px;
+        padding-top: 50px;
+    }
 
     .container {
 
