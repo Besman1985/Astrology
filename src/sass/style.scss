@@ -3,7 +3,7 @@
 
 body {
     background-color: #0A0A0A;
-    
+    container-type: inline-size
 }
 
 
@@ -18,6 +18,10 @@ body {
     margin: 0 auto;
     max-width: 1440px;
     padding: 0 40px 0 40px;
+
+    @container (max-width:700px) {
+        background-image: url(../img/BernYourSun/shutterstock_11657207_1\ 1.gif);
+    }
 
 
     & .container {
@@ -37,8 +41,10 @@ body {
             color: #FFFFFF;
             margin-top: 136px;
             line-height: 1.3;
-            @container (max-width:800px) {
-                font-size: 48px;
+
+            @container (max-width:700px) {
+                font-size: 40px;
+                max-width: 220px;
             }
         }
 
@@ -50,12 +56,21 @@ body {
             letter-spacing: 0px;
             text-align: left;
             color: #FFFFFF;
+
+            @container (max-width:700px) {
+                max-width: 190px;
+                margin-top: 15px;
+            }
         }
 
         .logo {
             max-width: 285px;
             height: auto;
 
+            @container (max-width:700px) {
+                max-width: 95px;
+                margin-top: 10px;
+            }
         }
 
         .bern__your__sun__btn {
@@ -71,6 +86,10 @@ body {
             border-radius: 50px;
             margin-top: 185px;
             cursor: pointer;
+
+            @container (max-width:700px) {
+                margin-top: 100px;
+            }
         }
     }
 }
@@ -85,11 +104,17 @@ body {
     max-height: 700px;
     padding: 0 40px 0 40px;
 
+    @container (max-width:700px) {
+        background-position: -424px -302px;
+        ;
+    }
+
     & .container {
         max-width: 1165px;
         min-height: 700px;
         margin: 0 auto;
         padding-top: 190px;
+        container-type: inline-size;
 
         .what__is__sun__h1 {
             font-family: Roboto;
@@ -97,6 +122,11 @@ body {
             letter-spacing: 0px;
             text-align: left;
             color: #f3d7b3;
+
+            @container (max-width:700px) {
+                font-size: 36px;
+                max-width: 187px;
+            }
 
         }
 
@@ -108,6 +138,12 @@ body {
             letter-spacing: 0px;
             text-align: left;
             color: #ffffff;
+
+            @container (max-width:700px) {
+                font-size: 18px;
+                max-width: 300px;
+                margin-top: 36px;
+            }
         }
 
         .what__is__sun__p {
@@ -127,6 +163,7 @@ body {
         max-width: 1165px;
         margin: 0 auto;
         padding-bottom: 50px;
+        container-type: inline-size;
 
         & h1 {
             font-family: Roboto;
@@ -134,6 +171,11 @@ body {
             font-weight: 300;
             letter-spacing: 0px;
             color: #f3d7b3;
+
+            @container (max-width:700px) {
+                font-size: 36px;
+                max-width: 240px;
+            }
         }
 
 
@@ -143,13 +185,32 @@ body {
             display: flex;
             align-items: center;
             justify-content: space-between;
+            position: relative;
+
+            @container (max-width:700px) {
+                margin-top: 20px;
+                margin-bottom: 65px;
+            }
 
             & img {
                 max-width: 550px;
+
+                @container (max-width:700px) {
+                    display: none;
+                }
             }
 
             .first__img {
                 transform: rotate(-5deg);
+
+                @container (max-width:700px) {
+                    display: block;
+                    max-width: 386px;
+                    position: absolute;
+                    transform: rotate(-20deg);
+                    right: -93px;
+                    bottom: -33px;
+                }
             }
 
 
@@ -163,6 +224,10 @@ body {
                     letter-spacing: 0px;
                     text-align: left;
                     color: #ffffff;
+
+                    @container (max-width:700px) {
+                        font-size: 18px;
+                    }
                 }
 
                 & p {
@@ -171,6 +236,11 @@ body {
                     font-weight: 100;
                     color: #ffffff;
                     margin-top: 7px;
+
+                    @container (max-width:700px) {
+                        font-size: 18px;
+                        max-width: 305px;
+                    }
                 }
             }
         }
@@ -190,12 +260,17 @@ body {
     align-content: center;
     padding: 0 40px 0 40px;
 
+    @container (max-width:700px) {
+        background-position: right;
+    }
+
 
     & .container {
         max-width: 1165px;
         min-height: 240px;
         margin: 0 auto;
         align-content: space-between;
+        container-type: inline-size;
 
 
         & p {
@@ -205,11 +280,23 @@ body {
             letter-spacing: 0px;
             text-align: left;
             color: #ffffff;
+
+            @container (max-width:700px) {
+                font-size: 25px;
+                max-width: 300px;
+
+            }
         }
 
         & :last-child {
             margin-top: 60px;
+
+            @container (max-width:700px) {
+                margin-top: 30px;
+
+            }
         }
+
 
     }
 }
@@ -228,6 +315,7 @@ body {
 
         max-width: 1165px;
         margin: 0 auto;
+        container-type: inline-size;
 
         & h1 {
             font-family: Roboto;
@@ -236,6 +324,10 @@ body {
             letter-spacing: 0px;
             text-align: left;
             color: #f3d7b3;
+
+            @container (max-width:700px) {
+                display: none;
+            }
         }
 
         .first__p {
@@ -247,6 +339,11 @@ body {
             text-align: left;
             color: #f3d7b3;
             margin-top: 50px;
+
+            @container (max-width:700px) {
+                font-size: 20px;
+            }
+
         }
 
         .next__p {
@@ -258,6 +355,11 @@ body {
             color: #ffffff;
             max-width: 860px;
             margin-top: 20px;
+
+            @container (max-width:700px) {
+                font-size: 20px;
+                margin-top: 14px;
+            }
         }
 
         .third__p {
@@ -268,7 +370,11 @@ body {
             letter-spacing: 0px;
             text-align: left;
             color: #ffffff;
-            margin-top: 30px;
+
+            @container (max-width:700px) {
+                font-size: 20px;
+                margin-top: 14px;
+            }
         }
 
         .what__to__do__btn {
@@ -285,6 +391,12 @@ body {
             border-radius: 50px;
             background: linear-gradient(358.43618354642354deg, #dac1a0 0%, #c3a885 47%, #c1a683 100%);
             margin-top: 120px;
+
+            @container (max-width:700px) {
+                 width: 300px;
+                 font-size:14px;
+                 margin: 57px auto 0 auto ;
+            }
         }
     }
 }
@@ -294,6 +406,7 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 40px 0 40px;
+    container-type: inline-size;
 
 
     .container {
@@ -321,7 +434,6 @@ body {
 
 
             .get__file__content {
-                // max-width: 460px;
 
                 .h2__wrapper {
                     display: flex;
@@ -386,6 +498,7 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 40px 0 40px;
+    container-type: inline-size;
 
     .container {
 
@@ -465,5 +578,91 @@ body {
                 object-fit: cover;
             }
         }
+
+        .premium__item__wrapper {
+            margin-top: 210px;
+            padding-bottom: 100px;
+            display: flex;
+            gap: 150px;
+
+            .premium__item {
+                display: flex;
+                flex-direction: column;
+
+                .h2__wrapper {
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    gap: 30px;
+
+                    & .number {
+                        width: 68px;
+                        height: 68px;
+                        box-sizing: border-box;
+                        background-color: #ffffff;
+                        box-shadow: 0px 0px 15px #f3d7b3 inset;
+                        align-content: center;
+                        font-family: Roboto;
+                        font-size: 35px;
+                        font-weight: 700;
+                        text-align: center;
+                        border-radius: 50%;
+                    }
+
+                    & h2 {
+                        max-width: 493px;
+                        font-family: Roboto;
+                        font-size: 30px;
+                        font-weight: 700;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        color: #ffffff;
+                        line-height: 1.3;
+                    }
+
+                }
+
+                & .premium__img__wrapper {
+                    display: flex;
+                    justify-content: space-between;
+                    position: relative;
+
+                    p {
+                        margin-top: 50px;
+                        font-family: Roboto;
+                        font-size: 30px;
+                        font-weight: 100;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        color: #ffffff;
+                        line-height: 1.3;
+                        z-index: 1;
+
+                    }
+
+                    .diamond__img {
+                        position: absolute;
+                        left: 310px;
+                        top: -65px;
+                        max-width: 330px;
+                    }
+
+                    .flower__img {
+                        position: absolute;
+                        right: 350px;
+                        top: -85px;
+                        max-width: 300px;
+                    }
+
+                    .flower__text {
+                        padding-left: 100px;
+                        max-width: 530px;
+
+                    }
+                }
+            }
+        }
+
+
     }
 }
