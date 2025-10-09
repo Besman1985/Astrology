@@ -48,7 +48,7 @@ body {
             }
         }
 
-        & p {
+        .text__desctop {
             max-width: 500px;
             font-family: Roboto;
             font-size: 16px;
@@ -58,6 +58,22 @@ body {
             color: #FFFFFF;
 
             @container (max-width:700px) {
+                display: none;
+            }
+        }
+
+        .text__mobile {
+            max-width: 500px;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 300;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #FFFFFF;
+            display: none;
+
+            @container (max-width:700px) {
+                display: block;
                 max-width: 190px;
                 margin-top: 15px;
             }
@@ -208,7 +224,7 @@ body {
                     max-width: 386px;
                     position: absolute;
                     transform: rotate(-20deg);
-                    right: -93px;
+                    right: -125px;
                     bottom: -33px;
                 }
             }
@@ -393,9 +409,9 @@ body {
             margin-top: 120px;
 
             @container (max-width:700px) {
-                 width: 300px;
-                 font-size:14px;
-                 margin: 57px auto 0 auto ;
+                width: 300px;
+                font-size: 14px;
+                margin: 57px auto 0 auto;
             }
         }
     }
@@ -406,7 +422,7 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 40px 0 40px;
-    container-type: inline-size;
+
 
 
     .container {
@@ -414,6 +430,7 @@ body {
         margin: 0 auto;
         display: flex;
         flex-direction: column;
+        container-type: inline-size;
 
         & h1 {
             font-family: Roboto;
@@ -424,6 +441,12 @@ body {
             color: #f3d7b3;
             margin-top: 209px;
 
+            @container (max-width:700px) {
+                font-size: 36px;
+                max-width: 300px;
+                margin-top: 46px;
+            }
+
         }
 
 
@@ -432,6 +455,12 @@ body {
             display: flex;
             justify-content: space-between;
 
+            @container (max-width:700px) {
+                display: block;
+                margin-top: 56px;
+            }
+
+
 
             .get__file__content {
 
@@ -439,6 +468,10 @@ body {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
+                    @container (max-width:700px) {
+                           justify-content: start;
+                           gap: 16px;
+                        }
 
                     .number {
                         width: 68px;
@@ -452,6 +485,12 @@ body {
                         font-weight: 700;
                         text-align: center;
                         border-radius: 50%;
+
+                        @container (max-width:700px) {
+                            width: 36px;
+                            height: 36px;
+                            font-size: 24px;
+                        }
                     }
 
                     & h2 {
@@ -463,7 +502,13 @@ body {
                         text-align: left;
                         color: #ffffff;
                         line-height: 1.3;
+
+                        @container (max-width:700px) {
+                            font-size: 18px;
+                            max-width: 240px;
+                        }
                     }
+
                 }
 
 
@@ -476,17 +521,30 @@ body {
                     letter-spacing: 0px;
                     text-align: left;
                     color: #ffffff;
-                    line-height: 1.3
+                    line-height: 1.3;
+
+                    @container (max-width:700px) {
+                        font-size:18px;
+                        max-width: 304px;
+                    }
+
                 }
 
                 .get__file__content__p {
                     margin-top: 35px;
+                     @container (max-width:700px) {
+                        margin-top: 15px;
+                    }
                 }
             }
 
             & img {
                 max-width: 695px;
                 object-fit: cover;
+                 @container (max-width:700px) {
+                        max-width: 333px;
+                        margin: 0 auto;
+                    }
             }
 
         }

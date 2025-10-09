@@ -42,7 +42,7 @@ body {
     max-width: 220px;
   }
 }
-.bern__your__sun .container p {
+.bern__your__sun .container .text__desctop {
   max-width: 500px;
   font-family: Roboto;
   font-size: 16px;
@@ -52,7 +52,23 @@ body {
   color: #FFFFFF;
 }
 @container (max-width:700px) {
-  .bern__your__sun .container p {
+  .bern__your__sun .container .text__desctop {
+    display: none;
+  }
+}
+.bern__your__sun .container .text__mobile {
+  max-width: 500px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+  display: none;
+}
+@container (max-width:700px) {
+  .bern__your__sun .container .text__mobile {
+    display: block;
     max-width: 190px;
     margin-top: 15px;
   }
@@ -198,7 +214,7 @@ body {
     max-width: 386px;
     position: absolute;
     transform: rotate(-20deg);
-    right: -93px;
+    right: -125px;
     bottom: -33px;
   }
 }
@@ -379,13 +395,13 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 40px 0 40px;
-  container-type: inline-size;
 }
 .you__get__file .container {
   max-width: 1165px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  container-type: inline-size;
 }
 .you__get__file .container h1 {
   font-family: Roboto;
@@ -396,15 +412,34 @@ body {
   color: #f3d7b3;
   margin-top: 209px;
 }
+@container (max-width:700px) {
+  .you__get__file .container h1 {
+    font-size: 36px;
+    max-width: 300px;
+    margin-top: 46px;
+  }
+}
 .you__get__file .container .get__file__wrapper {
   margin-top: 210px;
   display: flex;
   justify-content: space-between;
 }
+@container (max-width:700px) {
+  .you__get__file .container .get__file__wrapper {
+    display: block;
+    margin-top: 56px;
+  }
+}
 .you__get__file .container .get__file__wrapper .get__file__content .h2__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@container (max-width:700px) {
+  .you__get__file .container .get__file__wrapper .get__file__content .h2__wrapper {
+    justify-content: start;
+    gap: 16px;
+  }
 }
 .you__get__file .container .get__file__wrapper .get__file__content .h2__wrapper .number {
   width: 68px;
@@ -419,6 +454,13 @@ body {
   text-align: center;
   border-radius: 50%;
 }
+@container (max-width:700px) {
+  .you__get__file .container .get__file__wrapper .get__file__content .h2__wrapper .number {
+    width: 36px;
+    height: 36px;
+    font-size: 24px;
+  }
+}
 .you__get__file .container .get__file__wrapper .get__file__content .h2__wrapper h2 {
   max-width: 373px;
   font-family: Roboto;
@@ -428,6 +470,12 @@ body {
   text-align: left;
   color: #ffffff;
   line-height: 1.3;
+}
+@container (max-width:700px) {
+  .you__get__file .container .get__file__wrapper .get__file__content .h2__wrapper h2 {
+    font-size: 18px;
+    max-width: 240px;
+  }
 }
 .you__get__file .container .get__file__wrapper .get__file__content p {
   margin-top: 50px;
@@ -439,13 +487,30 @@ body {
   color: #ffffff;
   line-height: 1.3;
 }
+@container (max-width:700px) {
+  .you__get__file .container .get__file__wrapper .get__file__content p {
+    font-size: 18px;
+    max-width: 304px;
+  }
+}
 .you__get__file .container .get__file__wrapper .get__file__content .get__file__content__p {
   margin-top: 35px;
+}
+@container (max-width:700px) {
+  .you__get__file .container .get__file__wrapper .get__file__content .get__file__content__p {
+    margin-top: 15px;
+  }
 }
 .you__get__file .container .get__file__wrapper img {
   max-width: 695px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@container (max-width:700px) {
+  .you__get__file .container .get__file__wrapper img {
+    max-width: 333px;
+    margin: 0 auto;
+  }
 }
 
 .premium {
