@@ -218,8 +218,7 @@ body {
     display: block;
     max-width: 190px;
     position: absolute;
-    transform: rotate(-20deg);
-    right: 45px;
+    right: 0px;
     bottom: 25px;
     opacity: 50%;
   }
@@ -769,11 +768,204 @@ body {
 @container (max-width:700px) {
   .premium .container .premium__item__wrapper .premium__item .premium__img__wrapper .flower__img {
     max-width: 165px;
-    right: 160px;
+    right: 45vw;
     top: -104px;
   }
 }
 .premium .container .premium__item__wrapper .premium__item .premium__img__wrapper .flower__text {
   padding-left: 158px;
   max-width: 430px;
+}
+
+.cost {
+  background-color: #111111;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  container-type: inline-size;
+}
+.cost .conteiner {
+  max-width: 1165px;
+  margin: 0 auto;
+}
+.cost .conteiner h1 {
+  font-family: Roboto;
+  font-size: 72px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #f3d7b3;
+}
+@container (max-width:700px) {
+  .cost .conteiner h1 {
+    flex-direction: column;
+    font-size: 36px;
+  }
+}
+.cost .conteiner .cost__wraper {
+  display: flex;
+  min-width: 107px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+@container (max-width:700px) {
+  .cost .conteiner .cost__wraper {
+    flex-direction: column;
+    gap: 250px;
+  }
+}
+.cost .conteiner .cost__wraper .cost__item__standart {
+  max-width: 460px;
+  max-height: 680px;
+  background-image: url(../img/Cost/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  position: relative;
+  padding-top: 50px;
+}
+.cost .conteiner .cost__wraper .cost__item__standart h2 {
+  font-family: Roboto;
+  font-size: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #f3d7b3;
+  margin-left: 50px;
+}
+.cost .conteiner .cost__wraper .cost__item__standart .check__item {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 40px;
+  max-width: 300px;
+  list-style-type: none;
+  list-style-image: url("../img/Cost/check.png");
+  margin-top: 25px;
+}
+.cost .conteiner .cost__wraper .cost__item__standart .cost__card__wraper {
+  min-width: 395px;
+  min-height: 225px;
+  background-image: url(../img/Cost/BgCard.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 193px;
+  text-align: center;
+  align-content: center;
+  padding-left: 55px;
+  position: relative;
+}
+.cost .conteiner .cost__wraper .cost__item__standart .cost__card__wraper .cost__title {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #525252;
+  margin: 0 auto;
+  text-align: center;
+}
+.cost .conteiner .cost__wraper .cost__item__standart .cost__card__wraper .price {
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #A7875F;
+  margin: 0 auto;
+  text-align: center;
+}
+.cost .conteiner .cost__wraper .cost__item__standart .cost__card__wraper button {
+  width: 262px;
+  height: 59px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 0 10px 0 10px;
+  background: linear-gradient(358.4361835464deg, #dac1a0 0%, #c3a885 47%, #c1a683 100%);
+  color: #f0f0f0;
+  position: absolute;
+  top: 152px;
+  left: 73px;
+}
+.cost .conteiner .cost__wraper .cost__item__premium {
+  max-width: 460px;
+  min-height: 680px;
+  background-image: url(../img/Cost/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  position: relative;
+  padding-top: 50px;
+}
+.cost .conteiner .cost__wraper .cost__item__premium h2 {
+  font-family: Roboto;
+  font-size: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #f3d7b3;
+  margin-left: 50px;
+}
+.cost .conteiner .cost__wraper .cost__item__premium .check__item {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  max-width: 300px;
+  list-style-type: none;
+  list-style-image: url("../img/Cost/check.png");
+  margin-top: 25px;
+  margin-left: 40px;
+}
+.cost .conteiner .cost__wraper .cost__item__premium .cost__card__wraper {
+  min-width: 395px;
+  min-height: 225px;
+  background-image: url(../img/Cost/BgCard.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 455px;
+  text-align: center;
+  align-content: center;
+  padding-left: 55px;
+}
+.cost .conteiner .cost__wraper .cost__item__premium .cost__card__wraper .cost__title {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #525252;
+  margin: 0 auto;
+  text-align: center;
+}
+.cost .conteiner .cost__wraper .cost__item__premium .cost__card__wraper .price {
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #a7875f;
+  margin: 0 auto;
+  text-align: center;
+}
+.cost .conteiner .cost__wraper .cost__item__premium .cost__card__wraper button {
+  width: 262px;
+  height: 59px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 0 10px 0 10px;
+  background: linear-gradient(358.4361835464deg, #dac1a0 0%, #c3a885 47%, #c1a683 100%);
+  color: #f0f0f0;
+  box-shadow: 0px 4px 0px rgba(240, 222, 198, 0.8000000119) inset;
+  position: absolute;
+  top: 152px;
+  left: 73px;
 }/*# sourceMappingURL=style.css.map */
