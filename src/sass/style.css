@@ -681,6 +681,7 @@ body {
   .premium .container .premium__item__wrapper .premium__item .h2__wrapper {
     gap: 15px;
     margin-top: 30px;
+    padding-left: 20px;
   }
 }
 .premium .container .premium__item__wrapper .premium__item .h2__wrapper .number {
@@ -721,7 +722,7 @@ body {
 }
 @container (max-width:700px) {
   .premium .container .premium__item__wrapper .premium__item .wrapper__mobile {
-    padding-left: 120px;
+    padding-left: 140px;
   }
 }
 .premium .container .premium__item__wrapper .premium__item .premium__img__wrapper {
@@ -776,6 +777,11 @@ body {
   padding-left: 158px;
   max-width: 430px;
 }
+@container (max-width:700px) {
+  .premium .container .premium__item__wrapper .premium__item .premium__img__wrapper .flower__text {
+    padding-left: 180px;
+  }
+}
 
 .cost {
   background-color: #111111;
@@ -811,18 +817,24 @@ body {
 @container (max-width:700px) {
   .cost .conteiner .cost__wraper {
     flex-direction: column;
-    gap: 250px;
+    gap: 180px;
   }
 }
 .cost .conteiner .cost__wraper .cost__item__standart {
-  max-width: 460px;
-  max-height: 680px;
+  width: 400px;
   background-image: url(../img/Cost/bg.png);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 20px;
   position: relative;
   padding-top: 50px;
+  margin-bottom: 250px;
+}
+@container (max-width:700px) {
+  .cost .conteiner .cost__wraper .cost__item__standart {
+    margin-bottom: 0;
+    max-width: 330px;
+  }
 }
 .cost .conteiner .cost__wraper .cost__item__standart h2 {
   font-family: Roboto;
@@ -845,6 +857,11 @@ body {
   list-style-image: url("../img/Cost/check.png");
   margin-top: 25px;
 }
+@container (max-width:700px) {
+  .cost .conteiner .cost__wraper .cost__item__standart .check__item {
+    margin-left: 20px;
+  }
+}
 .cost .conteiner .cost__wraper .cost__item__standart .cost__card__wraper {
   min-width: 395px;
   min-height: 225px;
@@ -857,6 +874,15 @@ body {
   padding-left: 55px;
   position: relative;
 }
+@container (max-width:700px) {
+  .cost .conteiner .cost__wraper .cost__item__standart .cost__card__wraper {
+    top: 50px;
+    right: 40px;
+    padding-left: 70px;
+    max-width: 395px;
+    max-height: 225px;
+  }
+}
 .cost .conteiner .cost__wraper .cost__item__standart .cost__card__wraper .cost__title {
   font-family: Roboto;
   font-size: 20px;
@@ -865,6 +891,7 @@ body {
   color: #525252;
   margin: 0 auto;
   text-align: center;
+  max-width: 152px;
 }
 .cost .conteiner .cost__wraper .cost__item__standart .cost__card__wraper .price {
   font-family: Roboto;
@@ -874,6 +901,7 @@ body {
   color: #A7875F;
   margin: 0 auto;
   text-align: center;
+  max-width: 152px;
 }
 .cost .conteiner .cost__wraper .cost__item__standart .cost__card__wraper button {
   width: 262px;
@@ -892,14 +920,19 @@ body {
   left: 73px;
 }
 .cost .conteiner .cost__wraper .cost__item__premium {
-  max-width: 460px;
-  min-height: 680px;
-  background-image: url(../img/Cost/bg.png);
+  width: 400px;
+  background-image: url(../img/Cost/bgPremium.png);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 20px;
   position: relative;
   padding-top: 50px;
+}
+@container (max-width:700px) {
+  .cost .conteiner .cost__wraper .cost__item__premium {
+    margin-bottom: 225px;
+    max-width: 330px;
+  }
 }
 .cost .conteiner .cost__wraper .cost__item__premium h2 {
   font-family: Roboto;
@@ -922,6 +955,11 @@ body {
   margin-top: 25px;
   margin-left: 40px;
 }
+@container (max-width:700px) {
+  .cost .conteiner .cost__wraper .cost__item__premium .check__item {
+    margin-left: 20px;
+  }
+}
 .cost .conteiner .cost__wraper .cost__item__premium .cost__card__wraper {
   min-width: 395px;
   min-height: 225px;
@@ -934,6 +972,15 @@ body {
   align-content: center;
   padding-left: 55px;
 }
+@container (max-width:700px) {
+  .cost .conteiner .cost__wraper .cost__item__premium .cost__card__wraper {
+    max-width: 395px;
+    max-height: 225px;
+    top: 520px;
+    right: -20px;
+    padding-left: 70px;
+  }
+}
 .cost .conteiner .cost__wraper .cost__item__premium .cost__card__wraper .cost__title {
   font-family: Roboto;
   font-size: 20px;
@@ -942,6 +989,7 @@ body {
   color: #525252;
   margin: 0 auto;
   text-align: center;
+  max-width: 150px;
 }
 .cost .conteiner .cost__wraper .cost__item__premium .cost__card__wraper .price {
   font-family: Roboto;
@@ -951,6 +999,7 @@ body {
   color: #a7875f;
   margin: 0 auto;
   text-align: center;
+  max-width: 152px;
 }
 .cost .conteiner .cost__wraper .cost__item__premium .cost__card__wraper button {
   width: 262px;
